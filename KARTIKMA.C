@@ -1,0 +1,29 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int matrix[3][3];
+int i,j;
+clrscr();
+printf("this program will print no.from 1to 9 in matrices form:\n\n");
+for(i=0;i<3;i++)
+{
+ for(j=0;j<3;j++)
+ {
+   printf("enter no.(1-9):");
+   scanf("%d",&matrix[i][j]);
+   }
+   }
+   printf("\n\n\n");
+   for(i=0;i<3;i++)
+   {
+    for (j=0; j<3;j++)
+    {
+     printf("%d\t",matrix[i][j]);
+     }
+     printf("\n");
+     }
+
+     //printf("\n\n\n so thats the matrice form of no from1-9");
+     getch();
+     }

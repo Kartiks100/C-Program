@@ -1,0 +1,23 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+int n,a;
+int odd=0,even=0;
+printf("Enter a number");
+scanf("%d",&n);
+for(a=0;a<=n;a++)
+{
+int num;
+scanf("%d",&num);
+if(num%2==0)
+even++;
+else
+scanf("%d",&num);
+odd++;
+}
+printf("%d is even",even);
+printf("%d is odd",odd);
+getch();
+return 0;
+}
